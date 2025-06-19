@@ -1,0 +1,87 @@
+/* Base styles for entire page */
+body {
+    background: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main calculator container */
+  .calculator {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  /* Screen/display area */
+  .display {
+    background: #222;
+    color: #0f0;
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+    min-height: 60px;
+    overflow-x: auto;
+  }
+  
+  /* Grid layout for calculator buttons */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  /* General button styles */
+  button {
+    font-size: 1.5rem;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #eee;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background: #ccc;
+  }
+  
+  /* Operator buttons (+, -, *, /) */
+  button.operator {
+    background-color: #f7b731;
+    color: white;
+  }
+  
+  button.operator:hover {
+    background-color: #e0a106;
+  }
+  
+  /* Equal button */
+  button.equal {
+    background-color: #20bf6b;
+    color: white;
+    grid-column: span 2;
+  }
+  
+  button.equal:hover {
+    background-color: #1e9c58;
+  }
+  
+  /* Clear button */
+  button.clear {
+    background-color: #eb3b5a;
+    color: white;
+  }
+  
+  button.clear:hover {
+    background-color: #c4314a;
+  }
+  
