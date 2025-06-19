@@ -1,4 +1,4 @@
-# 🔢 simple Calculator
+# 🔢 Simple Calculator
 
 A basic yet fully functional calculator built using **HTML**, **CSS**, and **JavaScript**. Designed with a clean interface and intuitive controls, this calculator performs standard arithmetic operations and offers both mouse and keyboard input support.
 
